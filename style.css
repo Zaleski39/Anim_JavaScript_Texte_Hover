@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            width: 800px;
+            height: 500px;
+    /* min-height: 100vh; */
+    overflow: hidden;
+    background: #130e23;
+            margin-left: 200px;
+            margin-top: 200px;
+    }
+
+section .text{
+    position: relative;
+    text-align: center;
+    color: #00cefe;
+    margin: 40px;
+    /* max-width: 400px; */
+    white-space: pre-line;
+    }
+
+section .text span{
+    position: relative;
+    display: inline-block;
+    }
+
